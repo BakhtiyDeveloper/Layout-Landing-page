@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__header {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(255,254,255,1) 50%, rgba(255,234,245,1) 50%);
+    padding-top: 2rem;
+}
+
+.img1 {
+    padding-left: 200px !important;
+    
+}  
+
+.btn{
+    background-color: #ED017F;
+    color: aliceblue;
+    margin-left: 1rem;
+    
+} 
+
+.section_main-button{
+    display: inline-flex;
+    height: 4rem;
+    padding: 1rem 5rem;
+    align-items: center;
+    border-radius: 1rem;
+    background:  #FFF;
+    box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
+
+}
