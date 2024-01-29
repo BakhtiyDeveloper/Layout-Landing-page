@@ -6,6 +6,7 @@ body{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(255,254,255,1) 50%, rgba(255,234,245,1) 50%);
     padding-top: 2rem;
+    height: 682px;
 }
 
 .img1 {
@@ -29,4 +30,23 @@ body{
     background:  #FFF;
     box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
 
+}
+
+.section_main-img{
+    position: relative;
+    top: -100px;
+    left: 600px;
+
+
+}
+
+.section_main-img img{
+    position: absolute;
+    
+}
+
+.section_main-info{
+    position: absolute;
+    top: 100px;
+    left: 200px;
 }
