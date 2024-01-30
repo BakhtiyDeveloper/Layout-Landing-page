@@ -23,12 +23,20 @@ body{
     margin: 0 auto;
     width: 1440px;
     height: 820px;
-    flex-shrink: 0;
+    flex-shrink: 2;
+    align-items: center;
 }
+
+.main-navigation{
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    }
 
 .main-navigation__items{
     display: flex;
     list-style: none;
+
 }
 
 .main-navigation__item a{
@@ -60,4 +68,97 @@ body{
     margin-left: 1rem;
     
 } 
+
+.main-content-and-img{
+    display: flex;
+    align-items: center;
+
+}
+
+.main-header-content{
+    align-items: center;
+}
+
+.main-header-content-text h1{
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 107.937% */
+}
+
+.main-header-title{
+    width: 453px;
+    height: 135px;
+}
+
+
+.container{
+    padding-left: 125px;
+}
+
+.main-header-content-button1{
+    width: 157px;
+    height: 46px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.main-header-content-button2{
+    width: 157px;
+    height: 46px;
+    color:  #ED017F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #ED017F;
+    margin-left: 20px;
+    
+}
+
+.main-header-img-icon-car{
+    display: inline-flex;
+    height: 60px;
+    padding: 0px 27px;
+    align-items: center;
+    gap: 19px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background-color:  #FFF;
+    box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    
+}
+
+.main-header-img-icon-house{
+    display: inline-flex;
+    height: 60px;
+    padding: 0px 27px;
+    align-items: center;
+    gap: 19px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background-color:  #FFF;
+    box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    right: 90px;
+    top: 170px;
+}
+
+.main-header-img-right{
+    position: relative;
+}
 
