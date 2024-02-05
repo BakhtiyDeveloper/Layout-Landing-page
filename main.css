@@ -94,6 +94,7 @@ body{
 
 .container{
     padding-left: 125px;
+    margin-bottom: 100px;
 }
 
 .main-header-content-button1{
@@ -125,6 +126,10 @@ body{
     border: 1px solid #ED017F;
     margin-left: 10px;
     
+}
+
+.button-two{
+    margin-bottom: 100px;
 }
 
 .main-header-img-icon-car{
@@ -163,7 +168,7 @@ body{
 }
 
 .social-media{
-    margin-top: 100px;
+    margin-top: 150px;
     
 }
 
@@ -176,9 +181,31 @@ body{
 
 .social-media-item{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 200px;
+    list-style: none;
 }
 
-.social-media-items img{
-    margin-left: 50px;
+.num{
+    list-style: none;
+    text-decoration: none;
 }
 
+.containet-one{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1440px
+    height: 820px
+    top: 772px
+
+}
+
+.costomer{
+    text-align: center;
+}
+
+.costomer-p{
+    width: 660px
+    height: 44px
+}
